@@ -1,0 +1,19 @@
+{
+  "values": [
+    "snowyspirit:sled_acacia",
+    "snowyspirit:quark/sled_ancient",
+    "snowyspirit:quark/sled_azalea",
+    "snowyspirit:sled_bamboo",
+    "snowyspirit:sled_birch",
+    "snowyspirit:quark/sled_blossom",
+    "snowyspirit:sled_cherry",
+    "snowyspirit:sled_dark_oak",
+    "snowyspirit:iceandfire/sled_dreadwood",
+    "snowyspirit:sled_jungle",
+    "snowyspirit:sled_mangrove",
+    "snowyspirit:sled_oak",
+    "snowyspirit:backport/sled_poplar",
+    "snowyspirit:sled_spruce"
+  ],
+  "remove": []
+}

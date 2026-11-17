@@ -1,0 +1,21 @@
+{
+  "values": [
+    "supplementaries:item_shelf",
+    "suppsquared:item_shelf_spruce",
+    "suppsquared:item_shelf_birch",
+    "suppsquared:item_shelf_jungle",
+    "suppsquared:item_shelf_acacia",
+    "suppsquared:item_shelf_cherry",
+    "suppsquared:item_shelf_dark_oak",
+    "suppsquared:item_shelf_mangrove",
+    "suppsquared:item_shelf_bamboo",
+    "suppsquared:item_shelf_crimson",
+    "suppsquared:item_shelf_warped",
+    "suppsquared:quark/item_shelf_azalea",
+    "suppsquared:iceandfire/item_shelf_dreadwood",
+    "suppsquared:backport/item_shelf_poplar",
+    "suppsquared:quark/item_shelf_ancient",
+    "suppsquared:quark/item_shelf_blossom"
+  ],
+  "remove": []
+}

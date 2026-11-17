@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Ores",
+        "blocks": [
+            "#c:ores","minecraft:andesite", "minecraft:obsidian", "minecraft:bookshelf"
+        ],
+        "tools": [
+            "#minecraft:pickaxes", "#minecraft:axes"
+        ],
+        "override": {
+            "cooldown": null,
+            "mustSneak": null,
+            "delay": null,
+            "maxChain": null,
+            "needCorrectTool": null,
+            "searchRadius": null,
+            "permissionRestricted": null,
+            "decreaseDurability": null,
+            "hungerPerBlock": null,
+            "miningSpeedModifier": null
+        }
+    }
+]

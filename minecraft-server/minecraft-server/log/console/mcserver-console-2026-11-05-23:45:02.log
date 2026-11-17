@@ -1,0 +1,677 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by cpw.mods.jarhandling.impl.SecureJarVerifier$UnsafeAccessor (file:/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/libraries/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar)
+WARNING: Please consider reporting this to the maintainers of class cpw.mods.jarhandling.impl.SecureJarVerifier$UnsafeAccessor
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[32m[23:39:45.616] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui] 
+[m[32m[23:39:45.618] [main/INFO] [Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 25.0.4+7-1-24.04-Ubuntu 
+[m[32m[23:39:45.620] [main/INFO] [Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.4 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure 
+[m[32m[23:39:45.931] [main/INFO] [neoforge.core.IxerisBootstrapper/]: Skipped Ixeris bootstrapping because: on dedicated server 
+[m[32m[23:39:45.933] [main/INFO] [loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver 
+[m[32m[23:39:46.041] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER 
+[m[32m[23:39:46.327] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.248:server] 
+[m[32m[23:39:46.354] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.248/neoforge-21.1.248-universal.jar]], reader: mod manifest] 
+[m[32m[23:39:46.360] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "~nonexistent" [locator: org.sinytra.connector.locator.ConnectorEarlyLocatorBootstrap@2f058b8a] 
+[m[32m[23:39:46.394] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alltheleaks-1.1.6+1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.403] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alternate_current-mc1.21-1.9.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.412] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "amendments-1.21-2.1.10-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.422] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aquamirae-neoforge-1.21.1-7.2.7.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.428] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.436] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.2.5.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.443] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "attributefix-neoforge-1.21.1-21.1.3.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.448] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "backport-1.0.9+mc1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.450] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BadOptimizations-2.4.1-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.454] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.56.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.456] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bettervillage-neoforge-1.21.1-3.3.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.459] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bookshelf-neoforge-1.21.1-21.1.81.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.462] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "catalogue-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.465] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunksending-1.21-2.8.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.467] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Chunky-NeoForge-1.4.23.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.470] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "clientcrafting-1.21-1.8.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.473] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.475] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.478] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-8.39.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.481] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "comforts-neoforge-9.0.5+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.488] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configured-neoforge-1.21.1-2.6.3.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.494] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ConnectorExtras-1.12.1+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.496] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "crashexploitfixer-neoforge-1.1.0+1.21.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.506] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.511] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-enchantment-industry-2.5.4.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.514] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-stuff-additions1.21.1_v2.1.4b.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.516] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_sna-1.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.525] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createaddition-1.7.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.539] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createbionics-2.5.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.544] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreateDragonsPlus-1.11.9.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.551] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21-2.9.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.553] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.556] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "defaultoptions-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.561] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "despawntweaker-1.21.1-NeoForge-1.0.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.568] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "embeddium-1.0.15+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.571] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "entity_model_features_1.21-neoforge-3.0.11.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.580] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "entityculling-neoforge-1.9.5-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.590] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "epic-fight-21.17.3.1-mc1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.595] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FallingTree-1.21.1-1.21.1.11.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.599] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fantasy_armor-neoforge-1.2.4-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.608] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.3.4.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.614] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "farsight-1.21.1-4.5.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.616] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fast-ip-ping-v1.0.8-mc1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.621] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastasyncworldsave-1.21-2.6.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.623] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FastItemFrames-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.627] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fastpaintings-1.21-1.3.0-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.638] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.648] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.651] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fragmentum-neoforge-1.21.1-2.4.4.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.655] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.658] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.3.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.660] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.2.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.663] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gnetum-3.2.5.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.665] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.667] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gpumemleakfix-1.21-1.8.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.669] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "hauntedharvest-1.21-3.5.0-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.675] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iceandfire-2.1.2.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.678] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "IMM v1.3.1-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.681] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.683] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersive_optimization-neoforge-1.21-0.1.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.685] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "infinitetrading-1.21.1-5.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.688] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integrated_api-neoforge-1.21.1-1.9.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.691] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jamlib-neoforge-1.3.6+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.694] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.57.0.447.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.697] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jupiter-2.3.7-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.700] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.703] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "knightlib-neoforge-1.21.1-2.0.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.706] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.708] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.710] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Ksyxis-1.3.4.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.712] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "libraryferret-neoforge-1.21.1-4.0.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.714] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "limitedchunks-1.21-4.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.716] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "limitless-neoforge-2.0.0-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.718] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LitematicaTool-neoforge-2.0.0.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.724] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "maxhealthfix-neoforge-1.21.1-21.1.4.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.726] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.26.1+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.730] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21-2.29.16-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.733] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21.1-3.6.5-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.736] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MouseTweaks-neoforge-mc1.21-2.26.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.739] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mowziesmobs-1.21.1-1.8.2.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.741] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mysticaloaktree-1.21-1.14-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.746] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "naturalist-2.0.3-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.749] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neobeefix-1.0.8.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.751] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "noisium-neoforge-2.7.0+mc1.21-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.753] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "observable-5.4.4.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.755] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OctoLib-NEOFORGE-0.6.2+1.21.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.758] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ok_zoomer-neo-10.0.0-beta.13.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.760] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "olympus-neoforge-1.21.1-1.0.7.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.762] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Panopticon-1.08-NeoForge-1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.767] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Paraglider-neoforge-21.1.5.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.769] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "prickle-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.772] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "primal-1.1.6+1.21.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.774] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.777] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.783] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Quark-4.1-485.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.786] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "relics-1.21.1-0.12.8.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.791] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.792] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rightclickharvest-neoforge-4.6.1+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.798] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "RoughlyEnoughItems-16.0.799-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.803] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ScalableLux-0.1.0.1+neoforge.1cb1e91-all.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.809] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.813] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smoothchunk-1.21-4.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.815] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "snowyspirit-1.21.1-3.1.13-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.817] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedbackpacks-1.21.1-3.26.3.2158.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.820] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedcore-1.21.1-1.5.1.2341.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.826] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spark-1.10.124-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.829] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "structure_layout_optimizer-neoforge-1.0.12.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.831] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "structureessentials-1.21.1-4.8.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.837] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.21.1-3.9.9-neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.840] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "suppsquared-neoforge-1.21-1.2.18.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.842] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tombstone-neoforge-1.21.1-9.5.6.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.844] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "toofast-1.21.0-0.4.3.6.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.846] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ToolBelt-1.21.1-2.2.10.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.848] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "trade-cycling-neoforge-1.21.1-1.0.18.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.850] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "universalenchants-v21.1.9-mc1.21.1+neoforge.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.851] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "uranus-3.0-beta.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.853] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veinminer-client-neoforge-2.11.2+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.857] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veinminer-neoforge-2.11.2+1.21.1.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[32m[23:39:46.860] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Zeta-1.1-40.jar" [locator: {mods folder locator at /workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/mods}, reader: mod manifest] 
+[m[33m[23:39:48.017] [main/WARN] [selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:net.fabricmc.loader. Using Mod File: /~nonexistent 
+[m[32m[23:39:48.017] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 105 dependencies adding them to mods collection 
+[m[32m[23:39:48.017] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.7+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.56.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.017] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "codecui-neoforge-1.21.1-1.4.5.jar" [parent: moonlight-1.21.1-3.6.5-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "sewlia-config-1.0.0-20250810.044244-13.jar" [parent: krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar, locator: jarinjar] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-api-v1-11.3.0+b24c12f719.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kubejs-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modmenu-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-fluids-v1-3.1.6+ddc51b4719.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.018] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v1-2.1.7+7f945d5b19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.11+e9036fd419.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-command-api-v2-2.2.28+36d727be19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v2-2.12.0+75d3639619.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-attachment-api-v1-1.4.7+26d408aa19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jctools-core-4.0.5.jar" [parent: farsight-1.21.1-4.5.jar, locator: jarinjar] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rei-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "biolith-neoforge-3.0.10.jar" [parent: Quark-4.1-485.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.4.20.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-api-v1-2.0.26+9991ca2f19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.019] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.4.20.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.11.0.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integration-neoforge-0.2.jar" [parent: iceandfire-2.1.2.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-content-registries-v0-8.0.19+5e0d320019.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "terrablender-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "snakeyaml-2.4.jar" [parent: krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar, locator: jarinjar] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-lookup-api-v1-1.6.72+6244b11119.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-datetime-jvm-0.8.0-0.6.x-compat.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.020] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.3.3.jar" [parent: alltheleaks-1.1.6+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-cbor-jvm-1.11.0.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.4.20.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.3.7-beta.3.jar" [parent: supplementaries-1.21.1-3.9.9-neoforge.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-entity-events-v1-1.8.0+e46a02ca19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.7-beta.3.jar" [parent: mixinsquared-forge-0.3.7-beta.3.jar, locator: jarinjar] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v2-3.0.15+a3ee712d19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: CreateDragonsPlus-1.11.9.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v3-1.0.3+333dfad919.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.021] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TRansition-1.0.11-1.21.1-neoforge-SNAPSHOT.jar" [parent: entityculling-neoforge-1.9.5-mc1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-networking-api-v1-4.3.1+7e3d421f19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-lifecycle-events-v1-2.6.0+e40d8add19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mezz_config-1.21.1-neoforge-0.5.12.jar" [parent: jei-1.21.1-neoforge-19.57.0.447.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "atomicfu-jvm-0.33.0.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-client-tags-api-v1-1.2.0+5adff2d719.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.022] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transfer-api-v1-5.4.4+6244b11119.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "luaj-core-3.0.8-figura.jar" [parent: fragmentum-neoforge-1.21.1-2.4.4.jar, locator: jarinjar] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.1.0+6e8f52c719.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "pehkui-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-handler-api-v1-1.3.91+8dbc56dd19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-loader-v0-1.3.1+4ea8954419.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TRender-1.0.10-1.21.1-neoforge-SNAPSHOT.jar" [parent: entityculling-neoforge-1.9.5-mc1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-v1-5.1.0+1a09bd5a19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.1+9125b6dc19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-io-bytestring-jvm-0.9.1.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "semantic-ver-lib-1.0.0-beta.1.jar" [parent: limitless-neoforge-2.0.0-1.21.1.jar, locator: jarinjar] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "extras-utils-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "impl-0.8.1.jar" [parent: ok_zoomer-neo-10.0.0-beta.13.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "energy-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.023] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-particles-v1-4.0.2+824f924c19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-io-core-jvm-0.9.1.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: jamlib-neoforge-1.3.6+1.21.1.jar, locator: jarinjar] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-registries-v1-3.2.69+df3654b319.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-blockrenderlayer-v1-1.1.52+c290471319.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-api-v1-1.1.0+b0c22bb819.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: comforts-neoforge-9.0.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.024] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "luaj-jse-3.0.8-figura.jar" [parent: fragmentum-neoforge-1.21.1-2.4.4.jar, locator: jarinjar] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "api_neoforge-0.8.1.jar" [parent: ok_zoomer-neo-10.0.0-beta.13.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.4.20.jar" [parent: KotlinLangForge-2.14.1-k2.4.20-3.0+neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: createaddition-1.7.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "velocity-native-3.4.0-SNAPSHOT.jar" [parent: krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar, locator: jarinjar] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-group-api-v1-4.1.7+e324903319.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-gametest-api-v1-2.0.5+29f188ce19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.025] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-biome-api-v1-13.0.31+1e62d33c19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-registry-sync-v0-5.3.2+f9aace1619.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-recipe-api-v1-5.0.16+59440bcc19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-object-builder-api-v1-15.2.1+cc242efd19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet-another-config-lib-3.6.6+1.21.1-neoforge.jar" [parent: fragmentum-neoforge-1.21.1-2.4.4.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "Reflect-1.6.1+curseforge.jar" [parent: ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar, locator: jarinjar] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-sound-api-v1-1.0.23+10b84f8419.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-message-api-v1-6.0.14+6a754fce19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.5.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.026] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "emi-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.027] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet-another-config-lib-3.6.6+1.21.1-neoforge.jar, locator: jarinjar] 
+[m[32m[23:39:48.027] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-tag-api-v1-1.3.0+3e2bcb4b19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.027] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-generation-api-v1-20.3.0+3e2bcb4b19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.027] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-events-interaction-v0-0.7.14+057f5afd19.jar" [parent: forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar, locator: jarinjar, reader: mod manifest] 
+[m[32m[23:39:48.467] [main/INFO] [locator.DependencyResolver/]: Dependency resolution found 0 candidates to load 
+[m[32m[23:39:48.791] [main/INFO] [loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection 
+[m[32m[23:39:48.791] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "org.sinytra.connector-2.0.0-beta.17+1.21.1-mod.jar" [parent: , locator: org.sinytra.connector.locator.ConnectorLocator@5bda80bf, reader: mod manifest] 
+[m[32m[23:39:48.791] [main/INFO] [loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "runtime-1.0.0+1.21.1.jar" [parent: , locator: org.sinytra.connector.locator.ConnectorLocator@5bda80bf, reader: mod manifest] 
+[m[32m[23:39:48.796] [main/INFO] [loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		All The Leaks 1.1.6+1.21.1-neoforge (alltheleaks)
+		Alternate Current 1.9.0 (alternate_current)
+		Amendments 1.21-2.1.10 (amendments)
+		Aquamirae 7.2.7 (aquamirae)
+		Architectury 13.0.11 (architectury)
+		Artifacts 13.2.5 (artifacts)
+		AttributeFix 21.1.3 (attributefix)
+		Backport 1.0.9+mc1.21.1 (backport)
+		BadOptimizations 2.4.1 (badoptimizations)
+		Balm 21.0.56 (balm)
+		Better village 3.3.1 (bettervillage)
+		Biolith 3.0.10 (biolith)
+		Bookshelf 21.1.81 (bookshelf)
+		Catalogue 1.11.2 (catalogue)
+		chunksending mod 2.8 (chunksending)
+		Chunky 1.4.23 (chunky)
+		clientcrafting mod 1.8 (clientcrafting)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Clumps 19.0.0.1 (clumps)
+		CodecUI 1.21.1-1.4.5 (codecui)
+		Collective 8.39 (collective)
+		Comforts 9.0.5+1.21.1 (comforts)
+		conditional mixin 0.6.4 (conditional_mixin)
+		Configured 2.6.3 (configured)
+		Connector Extras 1.12.1+1.21.1 (connectorextras)
+		Connector Extras EMI Bridge 1.12.1+1.21.1 (connectorextras_emi_bridge)
+		Connector Extras Energy Bridge 1.12.1+1.21.1 (connectorextras_energy_bridge)
+		Connector Extras JEI Bridge 1.12.1+1.21.1 (connectorextras_jei_bridge)
+		Connector Extras KubeJS Bridge 1.12.1+1.21.1 (connectorextras_kubejs_bridge)
+		Connector Extras ModMenu Bridge 1.12.1+1.21.1 (connectorextras_modmenu_bridge)
+		Connector Extras Pehkui Bridge 1.12.1+1.21.1 (connectorextras_pehkui_bridge)
+		Connector Extras REI Bridge 1.12.1+1.21.1 (connectorextras_rei_bridge)
+		Connector Extras Terrablender Bridge 1.12.1+1.21.1 (connectorextras_terrablender_bridge)
+		Corail Tombstone 9.5.6 (tombstone)
+		CrashExploitFixer 1.1.0 (crashexploitfixer)
+		Create 6.0.10 (create)
+		Create Crafts & Additions 1.7.1 (createaddition)
+		Create Stuff & Netherite Additions 1.2 (create_nj)
+		Create Stuff 'N Additions 2.1.4. (create_sa)
+		Create: Bionics 2.5.0 (createbionics)
+		Create: Dragons Plus 1.11.9 (create_dragons_plus)
+		Create: Enchantment Industry 2.5.4 (create_enchantment_industry)
+		Cupboard mod 2.9 (cupboard)
+		Curios API 9.5.1+1.21.1 (curios)
+		Default Options 21.1.5 (defaultoptions)
+		DespawnTweakerRefoxed 1.0-SNAPSHOT (despawntweaker)
+		Embeddium 1.0.15+mc1.21.1 (embeddium)
+		Entity Model Features 3.0.11 (entity_model_features)
+		EntityCulling 1.9.5 (entityculling)
+		Epic Fight 21.17.3.1 (epicfight)
+		ExpandAbility 12.0.0 (expandability)
+		FallingTree 1.21.1.11 (fallingtree)
+		Fantasy Armor 1.2.4-1.21.1 (fantasy_armor)
+		Farmer's Delight 1.3.4 (farmersdelight)
+		Farsight mod 4.5 (farsight_view)
+		Fast IP Ping 1.0.8 (fastipping)
+		Fast Item Frames 21.1.6 (fastitemframes)
+		Fast Paintings 1.21-1.3.0 (fastpaintings)
+		fastasyncworldsave mod 2.6 (fastasyncworldsave)
+		Ferrite Core 7.0.3 (ferritecore)
+		Flywheel 1.0.6 (flywheel)
+		Forgified Fabric API 0.116.15+2.3.5+1.21.1 (fabric_api)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric API Lookup API (v1) 1.6.72+6244b11119 (fabric_api_lookup_api_v1)
+		Forgified Fabric Biome API (v1) 13.0.31+1e62d33c19 (fabric_biome_api_v1)
+		Forgified Fabric Block API (v1) 1.1.0+b0c22bb819 (fabric_block_api_v1)
+		Forgified Fabric BlockRenderLayer Registration (v1) 1.1.52+c290471319 (fabric_blockrenderlayer_v1)
+		Forgified Fabric BlockView API (v2) 1.0.11+e9036fd419 (fabric_block_view_api_v2)
+		Forgified Fabric Client Tags 1.2.0+5adff2d719 (fabric_client_tags_api_v1)
+		Forgified Fabric Command API (v2) 2.2.28+36d727be19 (fabric_command_api_v2)
+		Forgified Fabric Content Registries (v0) 8.0.19+5e0d320019 (fabric_content_registries_v0)
+		Forgified Fabric Convention Tags 2.1.7+7f945d5b19 (fabric_convention_tags_v1)
+		Forgified Fabric Convention Tags (v2) 2.12.0+75d3639619 (fabric_convention_tags_v2)
+		Forgified Fabric Data Attachment API (v1) 1.4.7+26d408aa19 (fabric_data_attachment_api_v1)
+		Forgified Fabric Data Generation API (v1) 20.3.0+3e2bcb4b19 (fabric_data_generation_api_v1)
+		Forgified Fabric Entity Events (v1) 1.8.0+e46a02ca19 (fabric_entity_events_v1)
+		Forgified Fabric Events Interaction (v0) 0.7.14+057f5afd19 (fabric_events_interaction_v0)
+		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
+		Forgified Fabric Game Test API (v1) 2.0.5+29f188ce19 (fabric_gametest_api_v1)
+		Forgified Fabric Item API (v1) 11.3.0+b24c12f719 (fabric_item_api_v1)
+		Forgified Fabric Item Group API (v1) 4.1.7+e324903319 (fabric_item_group_api_v1)
+		Forgified Fabric Key Binding API (v1) 1.0.47+62cc7ce119 (fabric_key_binding_api_v1)
+		Forgified Fabric Lifecycle Events (v1) 2.6.0+e40d8add19 (fabric_lifecycle_events_v1)
+		Forgified Fabric Loot API (v2) 3.0.15+a3ee712d19 (fabric_loot_api_v2)
+		Forgified Fabric Loot API (v3) 1.0.3+333dfad919 (fabric_loot_api_v3)
+		Forgified Fabric Message API (v1) 6.0.14+6a754fce19 (fabric_message_api_v1)
+		Forgified Fabric Model Loading API (v1) 2.1.0+6e8f52c719 (fabric_model_loading_api_v1)
+		Forgified Fabric Networking API (v1) 4.3.1+7e3d421f19 (fabric_networking_api_v1)
+		Forgified Fabric Object Builder API (v1) 15.2.1+cc242efd19 (fabric_object_builder_api_v1)
+		Forgified Fabric Particles (v1) 4.0.2+824f924c19 (fabric_particles_v1)
+		Forgified Fabric Recipe API (v1) 5.0.16+59440bcc19 (fabric_recipe_api_v1)
+		Forgified Fabric Registry Sync (v0) 5.3.2+f9aace1619 (fabric_registry_sync_v0)
+		Forgified Fabric Renderer - Indigo 1.7.1+9125b6dc19 (fabric_renderer_indigo)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Renderer Registries (v1) 3.2.69+df3654b319 (fabric_renderer_registries_v1)
+		Forgified Fabric Rendering (v1) 5.1.0+1a09bd5a19 (fabric_rendering_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Forgified Fabric Rendering Fluids (v1) 3.1.6+ddc51b4719 (fabric_rendering_fluids_v1)
+		Forgified Fabric Resource Conditions API (v1) 4.3.0+5bdd099819 (fabric_resource_conditions_api_v1)
+		Forgified Fabric Resource Loader (v0) 1.3.1+4ea8954419 (fabric_resource_loader_v0)
+		Forgified Fabric Screen API (v1) 2.0.26+9991ca2f19 (fabric_screen_api_v1)
+		Forgified Fabric Screen Handler API (v1) 1.3.91+8dbc56dd19 (fabric_screen_handler_api_v1)
+		Forgified Fabric Sound API (v1) 1.0.23+10b84f8419 (fabric_sound_api_v1)
+		Forgified Fabric Tag API (v1) 1.3.0+3e2bcb4b19 (fabric_tag_api_v1)
+		Forgified Fabric Transfer API (v1) 5.4.4+6244b11119 (fabric_transfer_api_v1)
+		Forgified Fabric Transitive Access Wideners (v1) 6.2.0+6c854b6f19 (fabric_transitive_access_wideners_v1)
+		Fragmentum 2.4.4 (fragmentum)
+		Framework 0.13.11 (framework)
+		GeckoLib 4 4.9.3 (geckolib)
+		GlitchCore 2.1.0.2 (glitchcore)
+		Gnetum 3.2.5 (gnetum)
+		Goblin Traders 1.11.2 (goblintraders)
+		Gpu memory leak fix 1.8 (gpumemleakfix)
+		Haunted Harvest 1.21-3.5.0 (hauntedharvest)
+		Ice And Fire Community Edition 2.1.2 (iceandfire)
+		ImmediatelyFast 1.6.10+1.21.1 (immediatelyfast)
+		Immersive Optimization 0.1.1 (immersive_optimization)
+		Infinite Trading 5.0 (infinitetrading)
+		Integrated API 1.9.0 (integrated_api)
+		Integrated Mowzie's Mobs 1.3.1 (integrated_mowzies_mobs)
+		Integration 0.2 (integration)
+		JamLib 1.3.6+1.21.1 (jamlib)
+		Jupiter 2.3.7 (jupiter)
+		Just Enough Items 19.57.0.447 (jei)
+		Kaleidoscope Tavern 1.2.0-neoforge+mc1.21.1 (kaleidoscope_tavern)
+		Knight Lib 2.0.1 (knightlib)
+		KotlinLangForge 2.14.1-k2.4.20-3.0+neoforge (klf)
+		Krypton FNP 0.2.28.1-1.21.1 (krypton_fnp)
+		Ksyxis 1.3.4 (ksyxis)
+		KumaAPI 21.0.7 (kuma_api)
+		Library ferret 4.0.0 (libraryferret)
+		limitedchunks mod 4.1 (limitedchunks)
+		Limitless Enchantments 2.0.0 (limitlessenchantments)
+		LitematicaTool 2.0.0 (litematicatool)
+		MaxHealthFix 21.1.4 (maxhealthfix)
+		MezzConfig 0.5.12 (mezz_config)
+		Minecraft 1.21.1 (minecraft)
+		ModernFix 5.26.1+mc1.21.1 (modernfix)
+		Moonlight Lib 1.21.1-3.6.5 (moonlight)
+		Mouse Tweaks 2.26.1 (mousetweaks)
+		Mowzie's Mobs 1.8.2 (mowziesmobs)
+		Mystical Oak Tree 1.21-1.14 (mysticaloaktree)
+		Naturalist 2.0.3 (naturalist)
+		Neo Bee Fix 1.0.8 (neobeefix)
+		NeoForge 21.1.248 (neoforge)
+		Noisium 2.7.0+mc1.21-1.21.1 (noisium)
+		Observable 5.4.4 (observable)
+		OctoLib 0.6.2 (octolib)
+		Ok Zoomer 10.0.0-beta.13 (ok_zoomer)
+		Olympus 1.0.7 (olympus)
+		Panopticon 1.08 (panopticon)
+		Paraglider 21.1.5 (paraglider)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		PrickleMC 21.1.11 (prickle)
+		Primal 1.1.6 (primal)
+		Puzzles Lib 21.1.66 (puzzleslib)
+		Quark 4.1-485 (quark)
+		Relics 0.12.8 (relics)
+		Resourcefulconfig 3.0.11 (resourcefulconfig)
+		Right Click Harvest 4.6.1+1.21.1 (rightclickharvest)
+		Roughly Enough Items (REI) 16.0.799 (roughlyenoughitems)
+		Sable Companion 1.6.0 (sablecompanion)
+		ScalableLux 0.1.0.1+neoforge.1cb1e91 (scalablelux)
+		Serene Seasons 10.1.0.3 (sereneseasons)
+		Sinytra Connector 2.0.0-beta.17+1.21.1 (connector)
+		Smoothchunk mod 4.1 (smoothchunk)
+		Snowy Spirit 1.21.1-3.1.13 (snowyspirit)
+		Sophisticated Backpacks 3.26.3 (sophisticatedbackpacks)
+		Sophisticated Core 1.5.1 (sophisticatedcore)
+		spark 1.10.124 (spark)
+		SpectreLib 0.17.2+1.21 (spectrelib)
+		Structure Essentials mod 4.8 (structureessentials)
+		Structure Layout Optimizer 1.0.12 (structure_layout_optimizer)
+		Supplementaries 1.21.1-3.9.9 (supplementaries)
+		Supplementaries Squared 1.21-1.2.18 (suppsquared)
+		Too Fast 0.4.3.6 (toofast)
+		Tool Belt 2.2.10 (toolbelt)
+		Trade Cycling 1.21.1-1.0.18 (trade_cycling)
+		TRansition 1.0.11 (transition)
+		TRender 1.0.10 (trender)
+		Universal Enchants 21.1.9 (universalenchants)
+		Uranus 3.0-beta.1 (uranus)
+		Veinminer 2.11.2 (veinminer)
+		Veinminer Client 2.11.2 (veinminer_client)
+		Wrench Wrapper 0.8.1 (wrench_wrapper)
+		Wrench Wrapper (Backend) 0.8.1 (wrench_wrapper_backend)
+		YetAnotherConfigLib 3.6.6+1.21.1-neoforge (yet_another_config_lib_v3)
+		Zeta 1.1-40 (zeta) 
+[m[32m[23:39:49.426] [main/INFO] [service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable 
+[m[32m[23:39:49.426] [main/INFO] [service.hacks.ModuleLayerMigrator/]: Successfully made module brigadier transformable 
+[m[32m[23:39:49.430] [main/INFO] [loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neobeefix] 
+[m[32m[23:39:51.904] [main/INFO] [mixin/]: Compatibility level set to JAVA_17 
+[m[32m[23:39:51.909] [main/INFO] [mixin/]: Compatibility level set to JAVA_21 
+[m[32m[23:39:52.652] [main/INFO] [LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui] 
+[m[33m[23:39:52.729] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.740] [main/WARN] [mixin/]: Reference map 'despawntweaker.refmap.json' for despawntweaker.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.751] [main/WARN] [mixin/]: Reference map 'gpumemleakfix.refmap.json' for gpumemleakfix.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.752] [main/WARN] [mixin/]: Reference map 'structureessentials.refmap.json' for structureessentials.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.753] [main/WARN] [mixin/]: Reference map 'kaleidoscope_tavern.refmap.json' for kaleidoscope_tavern.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[32m[23:39:52.869] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.26.1+mc1.21.1: 78 options available, 0 override(s) found 
+[m[32m[23:39:52.870] [main/INFO] [ModernFix/]: Applying Nashorn fix 
+[m[33m[23:39:52.871] [main/WARN] [mixin/]: Reference map 'modernfix.refmap.json' for modernfix-modernfix.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[32m[23:39:52.961] [main/INFO] [SewliaConfig/]: All configurations saved 
+[m[32m[23:39:52.966] [main/INFO] [SewliaConfig/]: Reloaded configuration: ModConfig 
+[m[32m[23:39:52.967] [main/INFO] [SewliaConfig/]: Successfully initialized configuration manager, loaded 1 configuration classes 
+[m[33m[23:39:52.968] [main/WARN] [mixin/]: Reference map '' for krypton_fnp.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.973] [main/WARN] [mixin/]: Reference map 'maxhealthfix.refmap.json' for maxhealthfix.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.976] [main/WARN] [mixin/]: Reference map 'bookshelf.refmap.json' for bookshelf.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.977] [main/WARN] [mixin/]: Reference map 'clientcrafting.refmap.json' for clientcrafting.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.980] [main/WARN] [mixin/]: Reference map 'relics.refmap.json' for relics.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.980] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:52.982] [main/WARN] [mixin/]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[32m[23:39:52.995] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 234 options available, 0 override(s) found 
+[m[33m[23:39:53.002] [main/WARN] [mixin/]: Reference map 'embeddium-refmap.json' for embeddium.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.123] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.123] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.127] [main/WARN] [mixin/]: Reference map 'mixins.tombstone.refmap.json' for tombstone.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.130] [main/WARN] [mixin/]: Reference map 'cupboard.refmap.json' for cupboard.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.135] [main/WARN] [mixin/]: Reference map 'mowziesmobs.refmap.json' for mowziesmobs.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.136] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.137] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.140] [main/WARN] [mixin/]: Reference map 'attributefix.refmap.json' for attributefix.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.143] [main/WARN] [mixin/]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.149] [main/WARN] [mixin/]: Reference map 'epicfight.mixins.refmap.json' for epicfight.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.154] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.155] [main/WARN] [mixin/]: Reference map 'fastasyncworldsave.refmap.json' for fastasyncworldsave.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.155] [main/WARN] [mixin/]: Reference map 'comforts.refmap.json' for comforts.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.157] [main/WARN] [mixin/]: Reference map 'immersive_optimization.refmap.json' for immersive_optimization.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.159] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.161] [main/WARN] [mixin/]: Reference map 'olympus.refmap.json' for olympus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.161] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.162] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.162] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.163] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.163] [main/WARN] [mixin/]: Reference map 'farsight.refmap.json' for farsight.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.165] [main/WARN] [mixin/]: Reference map 'toofast.refmap.json' for toofast.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.165] [main/WARN] [mixin/]: Reference map 'smoothchunk.refmap.json' for smoothchunk.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.209] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.218] [main/WARN] [mixin/]: Reference map 'zeta.mixins.refmap.json' for zeta.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.220] [main/WARN] [mixin/]: Reference map 'zeta.mixins.refmap.json' for zeta_forge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.220] [main/WARN] [mixin/]: Reference map 'quark.mixins.refmap.json' for quark.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.221] [main/WARN] [mixin/]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.249] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.250] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.251] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.252] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.253] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.253] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.255] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.256] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.256] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.257] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.260] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.261] [main/WARN] [mixin/]: Reference map 'gnetum.mixins.refmap.json' for gnetum.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.272] [main/WARN] [mixin/]: Reference map 'chunksending.refmap.json' for chunksending.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.277] [main/WARN] [mixin/]: Reference map 'aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.277] [main/WARN] [mixin/]: Reference map 'aquamirae.refmap.json' for aquamirae.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.278] [main/WARN] [mixin/]: Reference map 'defaultoptions.refmap.json' for defaultoptions.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.279] [main/WARN] [mixin/]: Reference map 'defaultoptions.refmap.json' for defaultoptions.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.281] [main/WARN] [mixin/]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.281] [main/WARN] [mixin/]: Reference map 'quark.mixins.refmap.json' for quark_integrations.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[33m[23:39:53.289] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message 
+[m[32m[23:39:53.668] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json 
+[m[32m[23:39:53.919] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.experimental.RconClientMixin disabled 
+[m[32m[23:39:53.919] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.microopt.ServerEntityMixin enabled 
+[m[32m[23:39:53.919] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.microopt.Utf8StringMixin enabled 
+[m[32m[23:39:53.920] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.microopt.VarIntMixin enabled 
+[m[32m[23:39:53.920] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.microopt.VarLongMixin enabled 
+[m[32m[23:39:53.921] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.pipeline.LegacyQueryHandlerMixin enabled 
+[m[32m[23:39:53.921] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.pipeline.Varint21FrameDecoderMixin enabled 
+[m[32m[23:39:53.922] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.pipeline.compression.ConnectionMixin enabled 
+[m[32m[23:39:53.922] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.pipeline.encryption.ConnectionMixin enabled 
+[m[32m[23:39:53.922] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.pipeline.encryption.ServerLoginPacketListenerImplMixin enabled 
+[m[32m[23:39:53.923] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.pipeline.prepender.ConnectionMixin enabled 
+[m[32m[23:39:53.923] [main/INFO] [KryptonFNP MixinBootstrap/]: Mixin one.pkg.kfnp.mixin.network.thread.ServerLoginPacketListenerImplMixin enabled 
+[m[1;31m[23:39:53.987] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER 
+[m[33m[23:39:53.992] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER) 
+[m[33m[23:39:53.992] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics 
+[m[33m[23:39:53.993] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/lithium/common/entity/movement/ChunkAwareBlockCollisionSweeper (java.lang.ClassNotFoundException: net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper) 
+[m[33m[23:39:53.993] [main/WARN] [mixin/]: @Mixin target net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper was not found relics.mixins.json:compat.lithium.ChunkAwareBlockCollisionSweeperMixin from mod relics 
+[m[33m[23:39:54.179] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/resolver/ServerAddressResolver (java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.resolver.ServerAddressResolver) 
+[m[33m[23:39:54.180] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.resolver.ServerAddressResolver was not found fastipping.mixins.json:AddressResolverMixin from mod fastipping 
+[m[33m[23:39:54.221] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/entity/npc/VillagerTrades/EnchantBookForEmeralds (java.lang.ClassNotFoundException: net.minecraft.world.entity.npc.VillagerTrades.EnchantBookForEmeralds) 
+[m[33m[23:39:54.222] [main/WARN] [mixin/]: @Mixin target net/minecraft/world/entity/npc/VillagerTrades/EnchantBookForEmeralds was not found limitlessenchantments.mixins.json:EnchantBookForEmeraldsMixin from mod limitlessenchantments 
+[m[33m[23:39:54.222] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AnvilScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.AnvilScreen) 
+[m[33m[23:39:54.222] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AnvilScreen was not found limitlessenchantments.mixins.json:AnvilScreenMixin from mod limitlessenchantments 
+[m[32m[23:39:54.456] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.supplementaries.UntrackedIssue002 will be loaded as it matches versions: 1.21.1-3.9.9 in [1.21-3.5.0,) 
+[m[32m[23:39:54.456] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.supplementaries.UntrackedIssue001 will be loaded as it matches versions: 1.21.1-3.9.9 in [1.21-3.1.8,) 
+[m[32m[23:39:54.456] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.sereneseasons.UntrackedIssue001 will be loaded as it matches versions: 10.1.0.3 in [10.1.0.1,) 
+[m[32m[23:39:54.456] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.octolib.UntrackedIssue001 will be loaded as it matches versions: 0.6.2 in [0.5.0.1,) 
+[m[32m[23:39:54.456] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.OctoRenderManagerMixin] 
+[m[32m[23:39:54.457] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.neoforge.Issue1487 will be loaded as it matches versions: 21.1.248 in [21.,) 
+[m[32m[23:39:54.457] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, main.accessor.PlayerAdvancementsAccessor] 
+[m[32m[23:39:54.457] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.neoforge.Issue1486 will be loaded as it matches versions: 21.1.248 in [21.,) 
+[m[32m[23:39:54.457] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.21.1 in 1.21.1 
+[m[32m[23:39:54.457] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.21.1 in 1.21.1 
+[m[32m[23:39:54.457] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin] 
+[m[32m[23:39:54.458] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.geckolib.UntrackedIssue001 will be loaded as it matches versions: 4.9.3 in * 
+[m[32m[23:39:54.458] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.SingletonGeoAnimatableMixin] 
+[m[32m[23:39:54.459] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.Issue22 will be loaded as it matches versions: 9.5.1+1.21.1 in [9.0.6,) 
+[m[32m[23:39:54.459] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin] 
+[m[32m[23:39:54.469] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.SaveWithLoadedChunks will be loaded as it matches versions: 1.21.1 in 1.21.1 
+[m[32m[23:39:54.469] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.21.1 in 1.21.1 
+[m[32m[23:39:54.469] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin] 
+[m[32m[23:39:54.469] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.diag.common.mods.minecraft.LogSavedData will be loaded as it matches versions: 21.1.248 in [21.1,) 
+[m[32m[23:39:54.469] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.SavedDataMixin] 
+[m[33m[23:39:54.481] [main/WARN] [mixin/]: Error loading class: it/hurts/octostudios/octolib/modules/particles/OctoRenderManager (java.lang.ClassNotFoundException: it.hurts.octostudios.octolib.modules.particles.OctoRenderManager) 
+[m[33m[23:39:54.481] [main/WARN] [mixin/]: @Mixin target it.hurts.octostudios.octolib.modules.particles.OctoRenderManager was not found alltheleaks.mixins.json:main.OctoRenderManagerMixin from mod alltheleaks 
+[m[1;31m[23:39:54.545] [main/ERROR] [common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER 
+[m[33m[23:39:54.546] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER) 
+[m[33m[23:39:54.546] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin from mod create_sa 
+[m[33m[23:39:54.620] [main/WARN] [mixin/]: Error loading class: dev/simulated_team/simulated/content/blocks/docking_connector/DockingConnectorBlockEntity (java.lang.ClassNotFoundException: dev.simulated_team.simulated.content.blocks.docking_connector.DockingConnectorBlockEntity) 
+[m[33m[23:39:54.621] [main/WARN] [mixin/]: @Mixin target dev.simulated_team.simulated.content.blocks.docking_connector.DockingConnectorBlockEntity was not found createaddition.mixins.json:DockingConnectorBEMixin from mod createaddition 
+[m[33m[23:39:54.622] [main/WARN] [mixin/]: Error loading class: dev/ryanhcode/sable/mixinhelpers/sublevel_render/vanilla/VanillaSubLevelBlockEntityRenderer (java.lang.ClassNotFoundException: dev.ryanhcode.sable.mixinhelpers.sublevel_render.vanilla.VanillaSubLevelBlockEntityRenderer) 
+[m[33m[23:39:54.622] [main/WARN] [mixin/]: @Mixin target dev.ryanhcode.sable.mixinhelpers.sublevel_render.vanilla.VanillaSubLevelBlockEntityRenderer was not found createaddition.mixins.json:VanillaSubLevelBERenderMixin from mod createaddition 
+[m[33m[23:39:54.625] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/common/impl/LootrServiceRegistry (java.lang.ClassNotFoundException: noobanidus.mods.lootr.common.impl.LootrServiceRegistry) 
+[m[33m[23:39:54.625] [main/WARN] [mixin/]: @Mixin target noobanidus.mods.lootr.common.impl.LootrServiceRegistry was not found quark_integrations.mixins.json:lootr.LootrServiceRegistryMixin from mod (unknown) 
+[m[33m[23:39:54.730] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key) 
+[m[33m[23:39:54.894] [main/WARN] [mixin/]: Error loading class: it/hurts/octostudios/octolib/modules/particles/OctoRenderManager (java.lang.ClassNotFoundException: it.hurts.octostudios.octolib.modules.particles.OctoRenderManager) 
+[m[33m[23:39:54.896] [main/WARN] [mixin/]: Error loading class: it/hurts/octostudios/octolib/modules/particles/OctoRenderManager (java.lang.ClassNotFoundException: it.hurts.octostudios.octolib.modules.particles.OctoRenderManager) 
+[m[33m[23:39:54.902] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval) 
+[m[32m[23:39:55] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[mWARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in module com.sun.jna (union:/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar%23112!/)
+WARNING: Use --enable-native-access=com.sun.jna to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[32m[23:39:55] [main/INFO] [minecraft/Bootstrap]: ModernFix reached bootstrap stage (11.55 s after launch)
+[m[1;31m[23:39:55] [main/FATAL] [mixin/]: Mixin apply for mod limitlessenchantments failed limitlessenchantments.mixins.json:CreativeModeTabsMixin from mod limitlessenchantments -> net.minecraft.world.item.CreativeModeTabs: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException PRIVATE @Overwrite method generateEnchantmentBookTypesOnlyMaxLevel in limitlessenchantments.mixins.json:CreativeModeTabsMixin from mod limitlessenchantments cannot reduce visibiliy of PUBLIC target method
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: PRIVATE @Overwrite method generateEnchantmentBookTypesOnlyMaxLevel in limitlessenchantments.mixins.json:CreativeModeTabsMixin from mod limitlessenchantments cannot reduce visibiliy of PUBLIC target method
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.conformVisibility(MixinPreProcessorStandard.java:479) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:452) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachOverwriteMethod(MixinPreProcessorStandard.java:416) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:346) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) [sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) [sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) [sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) [sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) [modlauncher-11.0.5.jar%2364!/:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) [securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) [securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) [securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) [securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) [securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) [?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.registries.BuiltInRegistries.<clinit>(BuiltInRegistries.java:260) [server-1.21.1-20240808.144430-srg.jar%23240!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:connector.mixins.json:registries.BuiltInRegistriesMixin from mod connector,pl:mixin:APP:create.mixins.json:BuiltInRegistriesMixin from mod create,pl:mixin:A,pl:connector_pre_launch:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:42) [server-1.21.1-20240808.144430-srg.jar%23240!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.BootstrapMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:core.BootstrapMixin from mod modernfix,pl:mixin:A,pl:connector_pre_launch:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:120) [server-1.21.1-20240808.144430-srg.jar%23240!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) [loader-4.0.43.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) [loader-4.0.43.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) [loader-4.0.43.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) [loader-4.0.43.jar%2359!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+[mException in thread "main" [32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:571]: 	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: Caused by: java.lang.reflect.InvocationTargetException
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:579]: 	... 8 more
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.registries.BuiltInRegistries.<clinit>(BuiltInRegistries.java:260)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:42)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:120)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:686]: 	... 14 more
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:709]: Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [limitlessenchantments.mixins.json:CreativeModeTabsMixin from mod limitlessenchantments] from phase [DEFAULT] in config [limitlessenchantments.mixins.json] FAILED during APPLY
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:709]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:709]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:709]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:709]: 	... 31 more
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: PRIVATE @Overwrite method generateEnchantmentBookTypesOnlyMaxLevel in limitlessenchantments.mixins.json:CreativeModeTabsMixin from mod limitlessenchantments cannot reduce visibiliy of PUBLIC target method
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.conformVisibility(MixinPreProcessorStandard.java:479)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:452)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachOverwriteMethod(MixinPreProcessorStandard.java:416)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:346)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+[m[32m[23:39:55] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:751]: 	... 31 more
+[m

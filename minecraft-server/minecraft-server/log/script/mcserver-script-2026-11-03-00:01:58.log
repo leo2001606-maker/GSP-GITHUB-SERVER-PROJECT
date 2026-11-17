@@ -1,0 +1,22 @@
+Oct 16 23:49:03.584 mcserver: START: PASS: Started LinuxGSM
+Oct 16 23:49:03.692 mcserver: START: PASS: Started LinuxGSM
+Oct 16 23:49:03.732 mcserver: START: INFO: LinuxGSM version: v26.2.0
+Oct 16 23:49:03.735 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Nov 03 00:01:57.719 mcserver: CORE: INFO: Querying http://ip-api.com/json for public IP address
+Nov 03 00:01:58.520 mcserver: CORE: PASS: Queried http://ip-api.com/json for public IP address
+Nov 03 00:02:03.818 mcserver: START: PASS: Using cached IP as public IP address
+Nov 03 00:02:09.355 mcserver: START: PASS: Using cached IP as public IP address
+Nov 03 00:02:10.096 mcserver: START: INFO: Removing logs older than 7 days
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/log/script/mcserver-script-2026-10-16-21:48:28.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/log/script/mcserver-script-2026-10-16-23:48:50.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/log/console/mcserver-console.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/log/console/mcserver-console-2026-10-16-23:48:50.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/rei.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/debug.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/2026-10-16-1.log.gz
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/2026-10-16-2.log.gz
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/debug-1.log.gz
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/rei-issues.log
+/workspaces/GSP-GITHUB-SERVER-PROJECT/minecraft-server/minecraft-server/serverfiles/logs/latest.log
+Nov 03 00:02:10.239 mcserver: START: Removed 11 log files
+Nov 03 00:02:10.848 mcserver: START: INFO: Rotating log files

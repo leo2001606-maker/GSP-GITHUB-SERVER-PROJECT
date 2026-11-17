@@ -1,0 +1,18 @@
+[worldgen]
+	#Generate the Dappled Forest biome in new chunks
+	dappledForest = true
+	#Generate Abandoned Camp structures
+	abandonedCamp = true
+
+[gameplay]
+	#Add Poplar saplings and Shelf Mushrooms to Wandering Trader trades
+	wanderingTraderOffers = true
+	#Make Shelf Mushrooms bouncy when stepped on
+	shelfMushroomBounce = true
+	#Allow Mushroom Stew and Suspicious Stew to be crafted with any two mushrooms
+	anyMushroomStew = true
+
+[fixes]
+	#Apply vanilla bug fixes introduced in 26.3
+	#See docs/BACKPORT-MATRIX.md, section 5, for the full list
+	vanillaBugfixes = true

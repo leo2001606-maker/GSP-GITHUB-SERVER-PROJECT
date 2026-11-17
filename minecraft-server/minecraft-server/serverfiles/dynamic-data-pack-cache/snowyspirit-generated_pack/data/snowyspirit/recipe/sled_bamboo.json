@@ -1,0 +1,44 @@
+{
+  "key": {
+    "A": {
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "minecraft:bamboo",
+      "type": "moonlight:block_type_swap"
+    },
+    "B": {
+      "ingredient": {
+        "item": "minecraft:stick"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "minecraft:bamboo",
+      "type": "moonlight:block_type_swap"
+    }
+  },
+  "pattern": [
+    "AAB",
+    "BBB"
+  ],
+  "result": {
+    "id": "snowyspirit:sled_bamboo",
+    "count": 1
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped",
+  "fabric:load_conditions": [
+    {
+      "condition": "snowyspirit:flag",
+      "flag": "sleds"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "snowyspirit:flag",
+      "flag": "sleds"
+    }
+  ]
+}

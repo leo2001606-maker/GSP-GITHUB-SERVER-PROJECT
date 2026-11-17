@@ -1,0 +1,21 @@
+{
+  "values": [
+    "supplementaries:way_sign_acacia",
+    "supplementaries:quark/way_sign_ancient",
+    "supplementaries:quark/way_sign_azalea",
+    "supplementaries:way_sign_bamboo",
+    "supplementaries:way_sign_birch",
+    "supplementaries:quark/way_sign_blossom",
+    "supplementaries:way_sign_cherry",
+    "supplementaries:way_sign_crimson",
+    "supplementaries:way_sign_dark_oak",
+    "supplementaries:iceandfire/way_sign_dreadwood",
+    "supplementaries:way_sign_jungle",
+    "supplementaries:way_sign_mangrove",
+    "supplementaries:way_sign_oak",
+    "supplementaries:backport/way_sign_poplar",
+    "supplementaries:way_sign_spruce",
+    "supplementaries:way_sign_warped"
+  ],
+  "remove": []
+}

@@ -1,0 +1,14 @@
+Nov 05 18:12:23.779 mcserver: START: PASS: Started LinuxGSM
+Nov 05 18:12:23.886 mcserver: START: PASS: Started LinuxGSM
+Nov 05 18:12:23.910 mcserver: START: INFO: LinuxGSM version: v26.2.0
+Nov 05 18:12:23.913 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Nov 05 23:33:37.487 mcserver: CORE: PASS: Using cached IP as public IP address
+Nov 05 23:33:38.602 mcserver: RESTART: PASS: Using cached IP as public IP address
+Nov 05 23:33:41.049 mcserver: RESTART: PASS: Using cached IP as public IP address
+Nov 05 23:33:41.839 mcserver: STOP: PASS: Using cached IP as public IP address
+Nov 05 23:33:43.419 mcserver: STOP: PASS: Using cached IP as public IP address
+Nov 05 23:33:44.045 mcserver: STOP: INFO: Graceful: sending "stop"
+Nov 05 23:33:47.505 mcserver: STOP: PASS: Graceful: sending "stop": OK: 3 seconds
+Nov 05 23:33:49.048 mcserver: START: PASS: Using cached IP as public IP address
+Nov 05 23:33:50.401 mcserver: START: PASS: Using cached IP as public IP address
+Nov 05 23:33:51.042 mcserver: START: INFO: Rotating log files
